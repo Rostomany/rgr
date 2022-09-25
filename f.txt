@@ -1,0 +1,13 @@
+q_zero
+q_zero a -> q_one
+q_zero b -> q_zero
+q_one a -> q_one
+q_one b -> q_two
+q_two a -> q_one
+q_two b -> q_three
+q_three b -> q_zero
+q_three a -> q_four
+q_four a -> q_one
+q_four b -> q_five
+q_five a -> q_five
+q_five b -> q_five
